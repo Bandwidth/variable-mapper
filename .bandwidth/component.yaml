@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  schemaVersion: v1.0.0
+  name: variable-mapper
+  description: |-
+    Github Action for mapping variables by a specific key
+  annotations:
+    github.com/project-slug: Bandwidth/variable-mapper
+    organization: BW
+    costCenter: Development - Numbers
+spec:
+  type: GitHub Action
+  owner: github/band-numbers
+  lifecycle: experimental
